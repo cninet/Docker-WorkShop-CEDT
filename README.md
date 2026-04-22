@@ -15,7 +15,7 @@ checklist item in the Self-Verification section below — tick them off as you g
 
 Tick each box as you complete it. The workshop is **done** when all 10 are ticked.
 
-- [ ] **AC-01:** `docker build -t workshop-app .` exits with status 0 locally.
+- [✓] **AC-01:** `docker build -t workshop-app .` exits with status 0 locally.
 - [ ] **AC-02:** Dockerfile uses a multi-stage build (`grep -c '^FROM' Dockerfile` = 2).
 - [ ] **AC-03:** `.dockerignore` excludes at least `node_modules`, `.git`, and `.env`.
 - [ ] **AC-04:** Dockerfile contains a `HEALTHCHECK` instruction.
